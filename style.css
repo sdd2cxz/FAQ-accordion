@@ -30,7 +30,9 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'WorkSans';
-    background-color: var(--Grayish-purple);
+    background: url(/assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Light-pink);
 }
 
 img,
@@ -111,4 +113,15 @@ h6 {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* media */
+
+@media  (min-width: 375px){
+    body{
+        background: url(assets/images/background-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: var(--Light-pink);
+    }
+    
 }

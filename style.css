@@ -67,7 +67,7 @@ h6 {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    
+
 }
 
 .flex {
@@ -75,32 +75,45 @@ h6 {
     gap: 1.5rem;
     align-items: center;
 }
-.hide {
+
+.show {
     display: none;
+
 }
+
 .flex-group {
     display: flex;
     align-items: center;
-    gap: .5rem;
-    flex-wrap: wrap;
-  }
+    justify-content: space-between;
+
+}
 
 /* styling */
 
 .container {
-    max-width: 20rem;
-    display: grid;
+    max-width: 21rem;
     background-color: var(--White);
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
 }
-.container-title svg{
+
+.container-title svg {
     width: 25px;
 }
-.container__faq-title{
+
+.container__faq-title {
     color: var(--Dark-purple);
+    
 }
-.faq-title{
+.faq-container {
+    background-color: var(--White);
+    margin: 20px;
+}
+
+.faq-title {
     color: var(--Dark-purple);
     font-size: 1rem;
+    width: 75%;
 }
 
 

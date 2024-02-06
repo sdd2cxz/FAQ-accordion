@@ -76,9 +76,12 @@ h6 {
     align-items: center;
 }
 
-.show {
+.hide {
     display: none;
 
+}
+.show{
+    display: block;
 }
 
 .flex-group {
@@ -114,6 +117,11 @@ h6 {
     color: var(--Dark-purple);
     font-size: 1rem;
     width: 75%;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 

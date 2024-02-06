@@ -4,6 +4,8 @@ container.forEach((element) => {
   const button = element.querySelector(".btn");
   
  button.addEventListener('click', () =>{
-  element.children[1].classList.toggle('show')
+  button.children[0].classList.toggle('hide')
+  button.children[1].classList.toggle('show')
+  element.children[1].classList.toggle('hide')
  })
 });
